@@ -13,5 +13,9 @@
 </ul>
 
 
+# S3 services and its structure
+<img src="amazonwebs3.png" alt="s3 structure"/>
+
+
 
 
