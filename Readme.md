@@ -15,7 +15,12 @@
 
 # S3 services and its structure
 <img src="amazonwebs3.png" alt="s3 structure"/>
+<p>one amazon account has 100 bucket limit with unlimited storage inside it</p>
+<p>one bucket is used to store the data of one project</p>
 
 
 
+# presigned url
+
+<p>when we declare the bucket as a private one..then when we add any images or file then it can not be accessed publicly.....we can access through the help of presigned url.....</p>
 
