@@ -24,3 +24,21 @@
 
 <p>when we declare the bucket as a private one..then when we add any images or file then it can not be accessed publicly.....we can access through the help of presigned url.....</p>
 
+
+
+
+# AWS tutorial
+
+# AWS  --- "IAM"
+
+There is two user for the AWS account console. ROOT user is used by the admin of the account to login into the account.
+
+IAM user account is used by the other sub users created by the root user with different roles and permissions.
+
+
+NOTE: To perform critical works like deployment we must use IAM user account. ROOT account must be used for handling the account.
+
+
+We can add permissions to the particular directly but there is limitation for that. Only 10 permissions can be add directly. Therefore it is recommended to use groups options so that we can give multiple permissions and later on we can add user on that group.
+
+
