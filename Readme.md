@@ -80,3 +80,6 @@ Note: This changes can be only made by the root user. IAM user can not make this
 Outcome: in this way the images or any files uploaded into the S3 bucket can be accessible publicly.
 
 
+# We can not delete the bucket directly if it has some files or folders or images. In that case we need to first empty the bucket and then only we can delete the bucket.
+
+
