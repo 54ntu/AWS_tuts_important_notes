@@ -42,3 +42,17 @@ NOTE: To perform critical works like deployment we must use IAM user account. RO
 We can add permissions to the particular directly but there is limitation for that. Only 10 permissions can be add directly. Therefore it is recommended to use groups options so that we can give multiple permissions and later on we can add user on that group.
 
 
+
+
+Task Completed:
+
+26/09/2025
+
+# Created two IAM user and assigned policy separately.
+
+# Problem: 
+If we have 1000 of staffs with different roles and permissions then it will be complicated to handle this permissions separately. 
+
+# solution:
+
+Use of group is the best solution for this. As we can create different different group where we can assigned policy or permissions as per the requirements and we can add the respective users into that group. It makes the life much more easier.
